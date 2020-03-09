@@ -33,3 +33,5 @@ const t01 = {
 assertEqual(findKey(t01, x => x === "Code Monkey"), "name");
 assertEqual(findKey(t01, x => x === "t01"), "id");
 assertEqual(findKey(t01, x => x === "Jonathan Coulton"), "artist");
+
+module.exports = findKey;

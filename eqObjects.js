@@ -61,3 +61,4 @@ const objectObject = { a: { z: 1 }, b: 2 };
 const object8 = { a: { y: 0, z: 1 }, b: 2 };
 assertEqual(eqObjects({ a: { z: 1 }, b: 2 }, { a: { z: 1 }, b: 2 }), true);
 
+module.exports = eqObjects;
