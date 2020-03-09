@@ -39,3 +39,5 @@ const results3 = map(words, word => word.length);
 assertArraysEqual(results3, [6, 7, 2, 5, 3]);
 const results4 = map(words, word => word.substr(1));
 assertArraysEqual(results4, ["round", "ontrol", "o", "ajor", "om"]);
+
+module.exports = maps;
